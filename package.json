@@ -15,7 +15,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:torandreroland/homebridge-sony-audio-control.git"
+    "url": "git@github.com:figotech/homebridge-sony-audio-control.git"
   },
   "dependencies": {
     "np": "^5.2.1",
