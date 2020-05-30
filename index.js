@@ -286,7 +286,7 @@ SonyAudioControlReceiver.prototype = {
       let setInputFunction = new Function('newInputState', 'callback', inputSetFunctionBody);
       this.inputs[i].setInputState = setInputFunction.bind(this);
 
-      var inputService = new Service.Switch("Input " + this.inputs[i].name, this.inputs[i].name);
+      var inputService = new Service.Switch("" + this.inputs[i].name, this.inputs[i].name);
 
       this.log.debug("... configuring input characteristic");
       inputService
